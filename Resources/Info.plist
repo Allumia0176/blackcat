@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>CFBundleName</key>
+    <string>BlackCat</string>
+    <key>CFBundleDisplayName</key>
+    <string>BlackCat</string>
+    <key>CFBundleIdentifier</key>
+    <string>ai.veronese.blackcat</string>
+    <key>CFBundleExecutable</key>
+    <string>BlackCat</string>
+    <key>CFBundleIconFile</key>
+    <string>AppIcon</string>
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+    <key>CFBundleShortVersionString</key>
+    <string>1.0.0</string>
+    <key>CFBundleVersion</key>
+    <string>1</string>
+    <key>CFBundleDevelopmentRegion</key>
+    <string>fr</string>
+    <key>LSMinimumSystemVersion</key>
+    <string>26.0</string>
+    <key>UTExportedTypeDeclarations</key>
+    <array>
+        <dict>
+            <key>UTTypeIdentifier</key>
+            <string>ai.veronese.blackcat.task</string>
+            <key>UTTypeDescription</key>
+            <string>Tâche BlackCat</string>
+            <key>UTTypeConformsTo</key>
+            <array><string>public.data</string></array>
+        </dict>
+        <dict>
+            <key>UTTypeIdentifier</key>
+            <string>ai.veronese.blackcat.project</string>
+            <key>UTTypeDescription</key>
+            <string>Projet BlackCat</string>
+            <key>UTTypeConformsTo</key>
+            <array><string>public.data</string></array>
+        </dict>
+    </array>
+    <key>LSUIElement</key>
+    <true/>
+    <key>NSHighResolutionCapable</key>
+    <true/>
+</dict>
+</plist>
